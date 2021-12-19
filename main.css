@@ -43,3 +43,7 @@ nav ul li a {
     text-decoration: none;
      
 }
+
+nav ul:last-child {
+    float: right;
+}
