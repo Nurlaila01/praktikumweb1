@@ -116,3 +116,15 @@ tr:hover {
     align-items: center;
     margin-bottom: 100px;
 }
+
+div.my-portofolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+div.my-portofolio img {
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 25px;
+}
