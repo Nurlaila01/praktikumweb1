@@ -83,6 +83,10 @@ tr:hover {
     text-align: center;
     color: white;
     margin-top: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 .sticky {
      position: sticky;
