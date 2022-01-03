@@ -94,3 +94,28 @@ warna.sort()    // mengurutkan array
 console.log(warna)
 warna.reverse() // membalikkan urutan dari array
 console.log(warna)  //Tampilkan array ke console
+
+// deklarasi objek
+let datadiri = {
+    namadepan: "Nur",
+    Namabelakang : "Laila",
+    email : "nurlaila@gmail.com",
+    noHP : +6282387430741,
+    sandi : 5511,
+    Namalengkap : function() {
+    return this.namadepan + " " + this.Namabelakang;
+    }
+    };
+    //Mengakses property/method pada objek dengan menggunakan Dot Notation
+    console.log(datadiri.namadepan);
+    console.log(datadiri.Namabelakang);
+    console.log(datadiri.sandi);
+    console.log(datadiri.email);
+    console.log(datadiri.noHP);
+    console.log(datadiri.Namalengkap());
+
+    //Mengakses property/method pada objek dengan menggunakan Bracket Notation:
+    console.log(datadiri["sandi"]);
+    console.log(datadiri["email"]);
+    console.log(datadiri["noHP"]);
+    
