@@ -52,3 +52,24 @@ console.log('false || false =', false || false)
 console.log('!true =', !true)
 console.log('!false =', !false)
 
+function luas_persegi(s) {    //membuat nama dan parameter pada fungsi
+    // statement yang ada pada fungsi
+    var luas;
+    luas = s*s;
+    return luas;
+};
+console.log(luas_persegi(15));   //menampilkan hasil fungsi yang dipanggil
+function luas_segitiga(a,t) {   //membuat nama dan parameter pada fungsi
+    // statement yang ada pada fungsi
+    var luas;
+    luas = a*t/2;
+    return luas;
+};
+console.log(luas_segitiga(5,8));    //menampilkan hasil fungsi yang dipanggil
+function volume_balok(p,l,t) {  //membuat nama dan parameter pada fungsi
+   // statement yang ada pada fungsi
+    var volume;
+    volume = p*l*t;
+    return volume;
+};
+console.log(volume_balok(5,2,3));   //menampilkan hasil fungsi yang dipanggil
