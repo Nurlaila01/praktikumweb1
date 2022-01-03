@@ -73,3 +73,24 @@ function volume_balok(p,l,t) {  //membuat nama dan parameter pada fungsi
     return volume;
 };
 console.log(volume_balok(5,2,3));   //menampilkan hasil fungsi yang dipanggil
+
+//deklarasi array
+var warna = ["Biru", "Ungu", "Abu-abu", "Merah"];
+//mengakses elemen pada array
+console.log(warna[0]);
+console.log(warna[1]);
+console.log(warna[2]);
+console.log(warna[3]);
+
+warna.push("Hijau");    // menambahkan item di akhir array
+console.log(warna.length);  // menghitung ukuran array
+console.log(warna);
+warna.pop() // menampilkan item terakhir sekaligus menghilangkannya dari array
+console.log(warna.length)   // menghitung ukuran array
+warna.unshift("Pink")   // menambahkan item di awal array
+console.log(warna)
+warna.shift()   // menampilkan item pertama pada array sekaligus menghilangkannya dari array
+warna.sort()    // mengurutkan array
+console.log(warna)
+warna.reverse() // membalikkan urutan dari array
+console.log(warna)  //Tampilkan array ke console
