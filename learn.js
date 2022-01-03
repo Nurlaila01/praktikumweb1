@@ -26,3 +26,16 @@ console.log('x++ =', x++)
 console.log('++x =', ++x)
 console.log('x-- =', x--)
 console.log('--x =', --x);
+
+//Menampilkan operasi perbandingan yang melibatkan 2 variabel
+let a = 24
+let b = 10
+console.log(a, b)
+console.log('a > b =', a > b)
+console.log('a < b =', a < b)
+console.log('a >= b =', a >= b)
+console.log('a <= b =', a <= b)
+console.log('a == b =', a == b)
+console.log('a != b =', a != b)
+console.log('a === b =', a === b)
+console.log('a !== b =', a !== b);
