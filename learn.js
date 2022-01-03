@@ -12,3 +12,17 @@ console.log(phi)
 window.alert("Angka favorit saya adalah : " + myNumber)
 window.alert('Angka favorit saya adalah : ' + myNumber)
 window.alert(`Angka favorit saya adalah : ${myNumber}`);
+
+//Menampilkan operasi aritmatika yang melibatkan 2 variabel
+let x = 21
+let y = 5
+console.log(x, y)
+console.log('x + y =', x + y)
+console.log('x - y =', x - y)
+console.log('x * y =', x * y)
+console.log('x / y =', x / y)
+console.log('x % y =', x % y)
+console.log('x++ =', x++)
+console.log('++x =', ++x)
+console.log('x-- =', x--)
+console.log('--x =', --x);
